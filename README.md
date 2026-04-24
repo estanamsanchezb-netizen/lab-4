@@ -41,6 +41,7 @@ plt.show()
 #%%
 np.savetxt(f"labo fs{fs}.txt", [t,senal])
 ```
+
 Se agarró la señal y se filtró para tener una mejor visualización
 
 ```python
@@ -108,6 +109,8 @@ plt.show()
 
 
 ```
+<img width="1083" height="388" alt="image" src="https://github.com/user-attachments/assets/50bca860-b92e-4aa1-95e4-748704b09025" />
+<br>
 Se segmentó la señal obtenida en las cinco ventanas de 200ms para ser estudiadas
 
 ```python
@@ -135,6 +138,8 @@ for i in range(num_ventanas):
 
 
 ```
+<img width="1120" height="401" alt="image" src="https://github.com/user-attachments/assets/6fcd86b6-bbdf-4403-961a-cf80e2e19c84" />
+
 Se calculó para cada ventana frecuencia media y frecuencia mediana 
 
 ```python
@@ -244,6 +249,11 @@ plt.show()
 
 ```
 
+<img width="700" height="227" alt="image" src="https://github.com/user-attachments/assets/0692888e-49b9-4d82-9e4f-5dedf59b9731" />
+
+<br>
+<img width="970" height="396" alt="image" src="https://github.com/user-attachments/assets/0ea42985-09c9-4e03-92e9-cfce98214461" />
+<br>
 
 
 
