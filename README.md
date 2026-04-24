@@ -762,6 +762,12 @@ plt.show()
 
 
 ```
+ <img width="881" height="450" alt="image" src="https://github.com/user-attachments/assets/a4fca4d4-881b-45ab-bc11-5a2020308af9" />
+ <br>
+ <img width="869" height="459" alt="image" src="https://github.com/user-attachments/assets/1fbb832a-ebf1-40ff-833e-d55a677927b1" />
+<br>
+
+
  se comparan las primeras ventanas con las ultimas para ver el cambio con la fatiga
 
 
@@ -900,6 +906,15 @@ resumen_fft["Contenido alta frecuencia promedio (%)"] = resumen_fft["Contenido a
 
 display(resumen_fft)
 
-
 ```
+<img width="977" height="339" alt="image" src="https://github.com/user-attachments/assets/c195a4bb-c078-4a92-9b2e-4fffe50eda96" />
+<br>
+<img width="916" height="466" alt="image" src="https://github.com/user-attachments/assets/f5d466e0-6e0c-4c45-8485-61262bc5068a" />
+<br>
+<img width="912" height="434" alt="image" src="https://github.com/user-attachments/assets/ba29c7b9-5a3e-459f-b5ee-6aeadb7bbd1d" />
+<br>
+<img width="928" height="485" alt="image" src="https://github.com/user-attachments/assets/2bdd89e4-301d-4403-afa7-7e8cb14a7d7a" />
+<br>
+
+
 <img width="101" height="898" alt="image" src="https://github.com/user-attachments/assets/8cc752b7-cdf1-42fd-b51e-fd2b0821a420" />
