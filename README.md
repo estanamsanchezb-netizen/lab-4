@@ -361,6 +361,7 @@ plt.legend()
 plt.show()
 
 ```
+<img width="1211" height="397" alt="image" src="https://github.com/user-attachments/assets/6413d2aa-5adc-4117-8ff9-c76a955be384" />
 
 
 Se dividio la señal en ventnas de 500ms
@@ -475,6 +476,7 @@ display(tabla_resultados_redondeada)
 
 
 ```
+<img width="877" height="317" alt="image" src="https://github.com/user-attachments/assets/f192f1c8-5031-4e01-a96d-bac49769093b" />
 
 
 
@@ -642,8 +644,18 @@ print("Pendiente de frecuencia mediana:", round(pendiente_mediana, 4), "Hz/s")
 
 
 ```
+<img width="950" height="449" alt="image" src="https://github.com/user-attachments/assets/cd8d0780-1dbb-432d-91f0-46c220bd0a90" />
 
+<br>
+<img width="990" height="467" alt="image" src="https://github.com/user-attachments/assets/696aef71-a4a8-4edf-9448-8e4d03254d54" />
+<br>
+<img width="1019" height="461" alt="image" src="https://github.com/user-attachments/assets/11cee5c1-b4c1-401c-b402-ffeaebf7b85a" />
+<br>
+<img width="934" height="403" alt="image" src="https://github.com/user-attachments/assets/63824eae-f028-47b9-8dda-bdd94519700e" />
+<br>
+<img width="1002" height="439" alt="image" src="https://github.com/user-attachments/assets/ba6b0638-7f3b-4f9c-bf00-82a6c024ef3a" />
 
+<br>
 <img width="117" height="682" alt="image" src="https://github.com/user-attachments/assets/6e486d31-f9a1-49b7-af9b-8a9867ce060e" />
 
 
