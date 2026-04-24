@@ -915,6 +915,9 @@ display(resumen_fft)
 <br>
 <img width="928" height="485" alt="image" src="https://github.com/user-attachments/assets/2bdd89e4-301d-4403-afa7-7e8cb14a7d7a" />
 <br>
+El análisis espectral demostró ser una herramienta eficaz para el estudio de señales electromiográficas, ya que permite identificar cambios en el contenido frecuencial asociados a la fatiga muscular. A partir de la aplicación de la Transformada de Fourier, fue posible observar cómo la distribución de frecuencias de la señal EMG varía a lo largo del tiempo durante una contracción sostenida.
 
+En particular, se evidenció un desplazamiento del pico espectral hacia frecuencias más bajas y una disminución del contenido de alta frecuencia, lo cual es consistente con el comportamiento fisiológico del músculo fatigado. Estos cambios reflejan una reducción en la velocidad de conducción de las fibras musculares y en la activación de unidades motoras de alta frecuencia.
+<br>
 
 <img width="101" height="898" alt="image" src="https://github.com/user-attachments/assets/8cc752b7-cdf1-42fd-b51e-fd2b0821a420" />
