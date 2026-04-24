@@ -738,7 +738,7 @@ plt.show()
 
 
 ```
- se comparan las primeras ventanas con las ultimas para ver el cmbio con la fatiga
+ se comparan las primeras ventanas con las ultimas para ver el cambio con la fatiga
 
 
  ```python
