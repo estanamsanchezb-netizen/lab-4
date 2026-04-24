@@ -43,4 +43,35 @@ plt.show()
 np.savetxt(f"labo fs{fs}.txt", [t,senal])
 ```
 ## Parte B
+Para la adquisición de la señal EMG real se utilizó el sistema BITalino, el cual permite registrar señales bioeléctricas como la actividad muscular. Este dispositivo integra una etapa de acondicionamiento de señales que permite amplificar y filtrar los potenciales bioeléctricos. Su función principal es realizar la conversión analógica-digital (ADC) de señales como la EMG. En este caso, los datos fueron guardados en formato .txt, lo que permitió su posterior visualización y análisis mediante gráficas.
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Ruta del archivo ya subido
+archivo = '/content/señalemg1-04-10_14-28-33.txt'
+
+# Leer datos ignorando encabezado
+datos = np.loadtxt(archivo, comments='#')
+
+# Tomar la última columna (A1)
+senal = datos[:, -1]
+
+# Frecuencia de muestreo
+fs = 1000  # Hz
+
+# Vector de tiempo
+tiempo = np.arange(len(senal)) / fs
+
+# Graficar
+plt.figure(figsize=(14,4))
+plt.plot(tiempo, senal)
+plt.title('Señal EMG')
+plt.xlabel('Tiempo (s)')
+plt.ylabel('Amplitud')
+plt.grid(True)
+plt.show()
+```
+<img width="1038" height="328" alt="image" src="https://github.com/user-attachments/assets/1176b669-30d4-4646-ba79-3f446c9d4afc" />
+
 ## parte C
