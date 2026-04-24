@@ -43,7 +43,7 @@ np.savetxt(f"labo fs{fs}.txt", [t,senal])
 ```
 Se agarró la señal y se filtró para tener una mejor visualización
 
-```
+```python
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -110,7 +110,7 @@ plt.show()
 ```
 Se segmentó la señal obtenida en las cinco ventanas de 200ms para ser estudiadas
 
-```
+```python
 
 duracion_ventana = 0.2   # segundos = 200 ms
 
@@ -137,7 +137,7 @@ for i in range(num_ventanas):
 ```
 Se calculó para cada ventana frecuencia media y frecuencia mediana 
 
-```
+```python
 def calcular_frecuencias(x_ventana, fs):
    
     
@@ -283,7 +283,7 @@ plt.show()
 
 Aplico un filtro pasa banda (20–450 Hz) para eliminar ruido y artefactos. 
 
-```
+```python
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -355,7 +355,7 @@ plt.show()
 
 Se dividio la señal en ventnas de 500ms
 
-```
+```python
 
 duracion_ventana = 0.5  # segundos
 muestras_ventana = int(fs * duracion_ventana)
@@ -382,7 +382,7 @@ for i in range(num_ventanas):
 SE aplico filtro pasa banda (20–450 Hz) para eliminar ruido y artefactos.
 
 
-```
+```python
 
 plt.figure(figsize=(14, 5))
 
@@ -402,7 +402,7 @@ plt.show()
 
 Se calculo para cada ventana fq media y mediana
 
-```
+```python
 def calcular_frecuencias(x_ventana, fs):
     
     # Quitar componente DC residual
@@ -472,7 +472,7 @@ Se grafican los resultados obtenidos y se analiza la tendencia de la frecuencia
 media y mediana a medida que progresa la fatiga muscular. 
 
 
-```
+```python
 
 
 
@@ -642,7 +642,7 @@ print("Pendiente de frecuencia mediana:", round(pendiente_mediana, 4), "Hz/s")
 Se le aplica la la Transformada Rápida de Fourier (FFT) a cada contracción de la
 señal EMG real.
 
-```
+```python
 
 
 tiempo_inicio_contraccion = 3  #
@@ -741,7 +741,7 @@ plt.show()
  se comparan las primeras ventanas con las ultimas para ver el cmbio con la fatiga
 
 
- ```
+ ```python
 
 cantidad_ventanas_comparar = 3
 
