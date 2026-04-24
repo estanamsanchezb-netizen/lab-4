@@ -390,6 +390,8 @@ for i in range(num_ventanas):
     ventanas.append((t_ventana, x_ventana))
 
 ```
+<img width="1120" height="388" alt="image" src="https://github.com/user-attachments/assets/e7af5eaf-c270-43cd-ad3d-5572959c9fff" />
+<br>
 SE aplico filtro pasa banda (20–450 Hz) para eliminar ruido y artefactos.
 
 
