@@ -4,8 +4,7 @@ En esta práctica se abordó el estudio de señales electromiográficas (EMG), l
 El primer paso fue configurar el generador de señales para simular la actividad de un músculo mediante una señal EMG. Una vez que obtuvimos esta señal emulada, la capturamos y guardamos para poder trabajar con ella. Después, le aplicamos un proceso de filtrado con el fin de eliminar el ruido y las interferencias, logrando así que la señal se viera de forma clara y nítida para su análisis.
 ```python
 # Librerías:
-"""!pip install nidaqmx     
-!python -m nidaqmx installdriver """
+
 import nidaqmx                     # Librería daq. Requiere haber instalado el driver nidaqmx
 from nidaqmx.constants import AcquisitionType # Para definir que adquiera datos de manera consecutiva
 import matplotlib.pyplot as plt    # Librería para graficar
