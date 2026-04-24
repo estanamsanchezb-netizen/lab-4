@@ -634,6 +634,7 @@ print("Pendiente de frecuencia mediana:", round(pendiente_mediana, 4), "Hz/s")
 ```
 
 
+<img width="117" height="682" alt="image" src="https://github.com/user-attachments/assets/6e486d31-f9a1-49b7-af9b-8a9867ce060e" />
 
 
 ## parte C
@@ -877,3 +878,4 @@ display(resumen_fft)
 
 
 ```
+<img width="101" height="898" alt="image" src="https://github.com/user-attachments/assets/8cc752b7-cdf1-42fd-b51e-fd2b0821a420" />
